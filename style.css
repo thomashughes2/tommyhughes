@@ -1,0 +1,173 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    margin-bottom: 40px;
+}
+
+.intro {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.articles-header {
+    margin-bottom: 30px;
+}
+
+.articles-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.articles-header p {
+    color: #666;
+    font-style: italic;
+}
+
+/* Article lists */
+.articles-list ul {
+    list-style: none;
+}
+
+.articles-list li {
+    margin-bottom: 8px;
+    padding: 5px 0;
+}
+
+.articles-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.articles-list a:hover {
+    text-decoration: underline;
+}
+
+.post-list {
+    list-style: none;
+}
+
+.post-list li {
+    margin-bottom: 10px;
+    padding: 8px 0;
+}
+
+.post-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.post-list a:hover {
+    text-decoration: underline;
+}
+
+/* Recent posts section */
+.recent-posts h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    .articles-list a,
+    .post-list a {
+        font-size: 1em;
+    }
+}
+
+/* Article page styles */
+.article-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.article-header {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.article-header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.article-meta {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.article-body {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.article-body p {
+    margin-bottom: 20px;
+}
+
+.article-body h2 {
+    font-size: 1.5em;
+    margin: 30px 0 15px 0;
+}
+
+.article-body h3 {
+    font-size: 1.3em;
+    margin: 25px 0 10px 0;
+}
